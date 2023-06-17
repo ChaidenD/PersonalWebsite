@@ -11,6 +11,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.container {
+			  display: flex;
+			  align-items: center;
+			  justify-content: center
+			}
+			img {
+			  max-width: 100%
+			}
+			.image {
+			  flex-basis: 50%
+			}
+			.text {
+			  font-size: 20px;
+			  padding-left: 20px;
+			}
+		  </style>
+
+
 	</head>
 	<body class="is-preload">
 
@@ -32,10 +52,13 @@
 						</div>
 						<nav>
 							<ul>
+								
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#project">Projects</a></li>
-								<li><a href="#about">About</a></li>
+								<li><a href="#test">test</a></li>
+								<li><a href="#hobby">Hobbies</a></li>
 								<li><a href="#contact">Contact</a></li>
+								
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -43,12 +66,40 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+
+								<div class="container">
+									<div class="image">
+									  <img src="images/Headshot.png">
+
+
+										
+									</div>
+								  </div>
+								  <div class="text">
+										<p>Hello! I am Ourson Domingo and I aspire to become a software engineer/developer.
+										I hope to become a front-end developer working on large projects. </p>
+									
+										<p>When it comes to technical skills, I have worked on a few school projects throughout my four years. 
+										The coding languages I am confident in are: Python3, Java, C++, LaTex, Julia, Sagemath, Javascript</p>
+										
+										<p>I graduated in June 2022 and currently looking for jobs that are related to this field. </p>
+									</div>
+								  
 							</article>
+
+							<article id="test">
+								<h2 class="major">test</h2>
+
+									<div class="container">
+										<p>Trying to see if I could add more columns</p>
+									</div>
+								  
+							</article>
+
+					
 
 						<!-- Projects -->
 							<article id="project">
@@ -60,15 +111,14 @@
 								</header>
 								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="#" class="button large">More Detail</a></li>
 								</ul>
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+						<!-- Hobbies -->
+							<article id="hobby">
+								<h2 class="major">Hobbies</h2>
+								
 							</article>
 
 						<!-- Contact -->
@@ -78,11 +128,11 @@
 									<div class="fields">
 										<div class="field half">
 											<label for="number">Number</label>
-											<p>(619) 829-2785 </p>										
+											<p><a href="tel:+1(619)-829-2785">(619) 829-2785</a></p>										
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<p> chaidendomingo@gmail.com</p>
+											<p> <a href="mailto:chaidendomingo@gmail.com"> chaidendomingo@gmail.com</a></p>
 										</div>
 										<div class="field half">
 											<label for="linkedin">linkedin</label>
@@ -90,7 +140,7 @@
 										</div>
 										<div class="field half">
 											<label for="website">website</label>
-											<p> ChaidenD.github.io</p>
+											<p> <a href="https://chaidend.github.io/#">ChaidenD.github.io</a></p>
 										</div>
 									</div>
 							</article>
@@ -116,13 +166,13 @@
 									<h4>Preformatted</h4>
 									<pre><code>i = 0;
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+									while (!deck.isInOrder()) {
+										print 'Iteration ' + i;
+										deck.shuffle();
+										i++;
+									}
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 								<section>
