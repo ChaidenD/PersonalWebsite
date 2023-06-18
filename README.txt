@@ -4,7 +4,9 @@ I am trying to pusue. I expect this website to continuously change as I change.
 Instead of this being a website, I consider this to be a personal archive of my 
 development process. As I continue to learn and grow, so should this website. 
 
+
 Thank you for your time.
+Ourson
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
