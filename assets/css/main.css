@@ -33,9 +33,12 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
-	list-style: none;
-}
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+  }
 
 blockquote, q {
 	quotes: none;
